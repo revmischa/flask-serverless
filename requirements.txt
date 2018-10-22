@@ -1,0 +1,7 @@
+Flask
+flask_cors
+boto3
+flask_apispec
+apispec
+marshmallow
+aws_lambda_wsgi
