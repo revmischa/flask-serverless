@@ -13,7 +13,7 @@ from marshmallow import Schema, fields
 from flask import current_app, _app_ctx_stack, Flask, jsonify
 from flask_cors import CORS
 import aws_lambda_wsgi
-from functools import partial
+from flask_apispec import use_kwargs, marshal_with
 
 
 # APIGW proxy / AWSGI bridge method
