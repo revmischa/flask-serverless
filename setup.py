@@ -6,6 +6,9 @@ Easy integration of Flask with AWS Lambdas.
 """
 from setuptools import setup
 
+with open('README.md') as f:
+    long_description = f.read()
+
 def parse_requirements(filename):
     """load requirements from a pip requirements file """
     lineiter = (line.strip() for line in open(filename))
@@ -13,13 +16,14 @@ def parse_requirements(filename):
 
 setup(
     name='Flask-Serverless',
-    version='0.1.0',
+    version='0.1.1',
     url='https://github.com/revmischa/flask-serverless',
     license='WTFPL',
     author='Mischa Spiegelmock',
     author_email='mischa@mvstg.biz',
     description='AWS Lambda easy integration with Flask web framework.',
-    long_description=__doc__,
+    long_description=long_description,
+    long_description_content_type='text/markdown',
     packages=['flask_serverless'],
     zip_safe=False,
     include_package_data=True,
@@ -31,7 +35,7 @@ setup(
     # ],
     # test_suite='tests',
     classifiers=[
-        'License :: OSI Approved :: WTFPL',
+        'License :: OSI Approved',
         'Framework :: Flask',
         'Programming Language :: Python',
         'Environment :: Web Environment',
