@@ -26,4 +26,9 @@ def index():
 ```
 4. You're ready to go! Run `make run`. Read the README it spits out.
 
-And you're ready to go.
+
+### More Coming...
+More documentation will be written soon.
+
+### Further Reading
+[Serverless Flask applications on AWS lambda.](https://spiegelmock.com/2018/09/06/serverless-python-web-applications-with-aws-lambda-and-flask/)
