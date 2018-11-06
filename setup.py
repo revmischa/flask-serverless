@@ -15,7 +15,7 @@ def parse_requirements(filename):
     return [line for line in lineiter if line and not line.startswith("#")]
 
 setup(
-    name='Flask-Serverless',
+    name='flask_serverless',
     version='0.1.2',
     url='https://github.com/revmischa/flask-serverless',
     license='WTFPL',
