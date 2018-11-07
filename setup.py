@@ -16,7 +16,7 @@ def parse_requirements(filename):
 
 setup(
     name='flask_serverless',
-    version='0.1.3',
+    version='0.1.4',
     url='https://github.com/revmischa/flask-serverless',
     license='WTFPL',
     author='Mischa Spiegelmock',
